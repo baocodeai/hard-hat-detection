@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Bỏ qua thư mục dữ liệu tự tải và log huấn luyện
+datasets/
+runs/
+*.zip
+
+# Bỏ qua file trọng số gốc tự tải về khi chạy script
+yolo11*.pt.env
